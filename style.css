@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+article header {
+  margin-bottom: 30px;
+}
+.h2 {
+  margin-bottom: 10px;
+  margin-top: 35px;
+}
+article {
+  margin-bottom: 50px;
+}
+ol,
+ul {
+  padding: 0 80px;
+}
+h1,
+h2,
+h3,
+p,
+li {
+  font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+h2 {
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+h3 {
+  font-size: 22px;
+  text-align: center;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0;
+}
+
+#author {
+  font-size: 16px;
+  font-style: italic;
+}
+
+#copywrite {
+  font-size: 12px;
+}
+
+.related {
+  list-style: none;
+}
+.main-header {
+  background-color: #f7f7f7;
+  margin-bottom: 40px;
+  height: 100px;
+  padding: 0 40px;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  width: 500px;
+}
+.img {
+  width: 100%;
+  height: auto;
+}
+
+/* Psuedo class dont work perfectly on parent element who have mix elements
+it works only those parent element which have same elements */
+/* li:first-child {
+  font-style: italic;
+}
+li:last-child {
+  font-weight: bold;
+}
+li:nth-child(2) {
+  color: red;
+} */
+
+/* Styling with anchor teg */
+/* LVHA
+  L=link 
+  V= Visited
+  H = Hover
+  A = Active
+
+*/
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+/* a {
+  color: #1098ad;
+} */
+a:visited {
+  color: #1098ad;
+}
+a:hover {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+/* a:active { */
+/* text-decoration: dashed; */
+/* } */
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
